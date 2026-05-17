@@ -58,6 +58,7 @@
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ВидыИнформации</catalogs>
+  <catalogs>Catalog.Адреса</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.Проверка</documents>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3388a67-2144-434e-823d-2851a476d0ad">
+  <producedTypes>
+    <objectType typeId="2f65e5eb-95fc-4ddc-902c-dae54f74ec4d" valueTypeId="92e8d474-5747-44be-95d4-940bca6012dc"/>
+    <refType typeId="f5527536-03dc-4a7f-8a20-5c51373c87e2" valueTypeId="1edc1553-a1e0-4a80-8305-5cf12cf546e3"/>
+    <selectionType typeId="3420cec4-95eb-4d27-8086-320a42067f4c" valueTypeId="21d66b67-26fa-46f8-b5a5-22a8726e3507"/>
+    <listType typeId="7cbb3bfa-e552-4342-add2-f5cb24466728" valueTypeId="02c96b08-b776-454e-86f0-afc006da72f3"/>
+    <managerType typeId="8084fb26-f078-4c8c-9998-d11dcc333e49" valueTypeId="d174c6f6-f336-4adc-8310-fbe5c6f36f38"/>
+  </producedTypes>
+  <name>Адреса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адреса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Адреса.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Адреса.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
