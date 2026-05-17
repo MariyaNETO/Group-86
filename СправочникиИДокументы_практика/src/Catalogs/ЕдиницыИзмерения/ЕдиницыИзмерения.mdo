@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fdb160e-4ef7-4800-8c2a-97e4321b6cdb">
+  <producedTypes>
+    <objectType typeId="82034fa2-e0fb-4b3e-a05a-6b2b56927a95" valueTypeId="11a64c9b-8105-4609-aa5a-247c470c65c3"/>
+    <refType typeId="d7cd8a70-d6c9-4078-b0e8-9f351fac2057" valueTypeId="d5022625-dcd6-4e78-9c4f-5dc0b7d432bf"/>
+    <selectionType typeId="0911ed5c-a1ab-4ae6-8c53-ed16057d294a" valueTypeId="2ebdc30b-f173-4b2f-b832-c02c6f83d7fb"/>
+    <listType typeId="8a70e46b-1621-4afd-8a65-786fdec73a94" valueTypeId="9f748033-ce6e-4b42-86ac-aa7dd3105d98"/>
+    <managerType typeId="e6df54c2-1ea8-499b-bbac-7f86f639165c" valueTypeId="8acea206-045e-4a82-8355-75212d3ed890"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9429fed0-055c-4e84-9034-0f71d5c57ee7">
+      <name>Штука</name>
+      <description>шт.</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

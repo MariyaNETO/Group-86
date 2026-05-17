@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d658f0de-b2fb-4e6d-8108-dcae8fe9d781">
+  <producedTypes>
+    <selectionType typeId="90244e80-e02b-43d5-90a7-bb710550cf92" valueTypeId="ba945f72-1a3f-434a-9c2e-ee9ded4d52f3"/>
+    <listType typeId="3e18d4a5-4909-4b5a-b0cf-eeff96f4f6db" valueTypeId="6405f55b-14f9-4241-82e5-1083ce210564"/>
+    <managerType typeId="d2261d97-fd35-4140-9d5e-0f133bd78fce" valueTypeId="6bc57c07-5239-48bc-87db-98097db00b5d"/>
+  </producedTypes>
+  <name>СкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПродажаТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <columns uuid="1b915e31-1083-4c65-8d56-abe45a5145a5">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПродажаТоваров.Attribute.Контрагент</references>
+  </columns>
+</mdclass:DocumentJournal>

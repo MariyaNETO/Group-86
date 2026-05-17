@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="642fa562-09e8-46c7-b4df-b60c06eaa15e">
+  <name>СправочникиИДокументыПрактика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники и документы практика</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d30eace6-56a8-446c-b36c-ac123cdef3ef"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fe188dac-2dff-43ea-bff2-a70495a1dcf3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="339fa807-dae7-4bbf-aa70-5e7af15c8d3c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b3dffe0e-991d-4e4f-8c38-415fb60165f3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ec2207aa-c69e-4e4f-b6a9-3a267167b829"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="88240701-b094-4ae0-9821-16684d2e9358"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f8a3f12d-3e42-4183-97e4-5203bfa7d041"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Справочники и документы практика</value>
+  </detailedInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="3d84de21-12ae-47fb-ad02-189561a0bf5f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonModules>CommonModule.Префиксация</commonModules>
+  <commonModules>CommonModule.ДобавитьГруппуСервер</commonModules>
+  <eventSubscriptions>EventSubscription.УстановкаПрефиксаВКодСпавочника</eventSubscriptions>
+  <definedTypes>DefinedType.СуммаДляРасчета</definedTypes>
+  <definedTypes>DefinedType.Денежный</definedTypes>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.Проверка</documents>
+  <documentNumerators>DocumentNumerator.ДокументыПоТоварам</documentNumerators>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
+</mdclass:Configuration>

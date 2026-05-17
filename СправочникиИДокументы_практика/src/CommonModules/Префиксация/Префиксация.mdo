@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab5104df-b6d5-43e6-bb54-30b117291822">
+  <name>Префиксация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

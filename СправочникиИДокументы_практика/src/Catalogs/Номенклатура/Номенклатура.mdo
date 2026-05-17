@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19cd5b19-c094-476e-b313-baa1cdc600e9">
+  <producedTypes>
+    <objectType typeId="9c01cf08-0cbc-455c-9d0b-2a83e728b06d" valueTypeId="cb77f3c9-aa7d-4a8b-ac7d-a6d64c32f473"/>
+    <refType typeId="0deddc2e-c955-444f-812b-c98b0cd54b5e" valueTypeId="beb0c9fb-4e5d-43ab-8494-b1b50644bc4d"/>
+    <selectionType typeId="401f7a39-8bac-41d4-9f11-e93d159815fa" valueTypeId="6d76a200-c204-48cd-a960-7f79292501ef"/>
+    <listType typeId="91b6e725-94f7-4b7a-a1f9-25410bcdbe25" valueTypeId="6359dc06-e322-41c5-aab2-343e8d71d3b6"/>
+    <managerType typeId="5d2a838c-ada4-421f-ad12-626a6c109114" valueTypeId="ea8c0d5f-fdb7-4777-b7ee-f334be220514"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="17c2a2c1-6699-4bf5-800f-a01260c144fc">
+    <name>ЕдиницаИзмеренияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bcd602d0-5067-44b2-accb-da2c9446d2cf">
+    <name>ФормаВыбораСоСписком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора со списком</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8744364-2d88-4a5d-a692-e702ca5b3118">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

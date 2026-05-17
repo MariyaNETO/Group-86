@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5306d152-1c92-49a4-8e77-8651e167611c">
+  <producedTypes>
+    <objectType typeId="d2d527a9-06c4-4707-821f-f293359904ac" valueTypeId="a8ebfabc-fa0f-4e74-b476-3bcc6718db2c"/>
+    <refType typeId="400d8a55-98d0-4d9e-a782-74afefffd8f7" valueTypeId="e95c496c-b44c-419d-8a8c-ecc1315710bb"/>
+    <selectionType typeId="76a18a14-a42e-4ebf-bdb9-dac91510b5c0" valueTypeId="8e2e254c-ff7b-4c75-a9b5-1a67910d94dd"/>
+    <listType typeId="6cd1ba1e-1aef-4403-aa55-5213d281d472" valueTypeId="95feaf3c-27f4-43bb-9034-d7ce6bd0bb3a"/>
+    <managerType typeId="33b23acc-a24d-4794-a78b-a1c19160cb41" valueTypeId="c2c1aa53-e9d2-4ce9-8f14-db9c5e83fa2f"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="07aad4da-49cb-47b3-88ae-b531c9286e25">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ada72b3-2f15-4f98-839c-f094a6322c85">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрепленный Менеджер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="609d5a07-9d48-4330-a69d-a69adf382cc7">
+    <producedTypes>
+      <objectType typeId="063a5295-720f-4beb-97b4-dff3aef2c493" valueTypeId="dadc0051-2f19-4d18-bb8a-f5bc172612ed"/>
+      <rowType typeId="ccc3d047-f3de-4c13-9abf-c3d48054ffa1" valueTypeId="579f6c4f-7c30-4b6a-8c1f-a1e3d3e17821"/>
+    </producedTypes>
+    <name>КонтакнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакная информация</value>
+    </synonym>
+    <attributes uuid="d726bb13-5a22-43a8-ac5d-2032ba5061b8">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="38339e2f-2184-48e4-9357-291d9485507b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
