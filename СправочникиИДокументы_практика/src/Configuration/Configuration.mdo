@@ -62,6 +62,7 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.Проверка</documents>
+  <documents>Document.Доставка</documents>
   <documentNumerators>DocumentNumerator.ДокументыПоТоварам</documentNumerators>
   <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
 </mdclass:Configuration>
